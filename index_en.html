@@ -1,0 +1,609 @@
+﻿<!doctype html>
+<html lang="pl-PL">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" http-equiv="refresh" content="120">
+	<!--<meta charset="utf-8">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>TAXI Bydgoszcz - Non Stop & Fordon</title>
+ 
+	<!-- Facebook Pixel Code -->
+
+	<!-- End Facebook Pixel Code -->
+
+ </head>
+
+<!-------------------------------------- STYLE -------------------------------------->
+ <style type="text/css">
+ 	
+body {
+	background-color: rgb(51, 62, 67);
+}
+
+hr {
+	background-color: white;
+}
+
+.carousel {
+	top: 5px;
+	right: 3px;
+}
+
+.flaga {
+	height: 18px;
+	width: 37px;
+	position: sticky;
+	margin-top: 4px;
+	}
+	
+.flaga_text {
+	font-weight: bold;
+	color: white;
+	padding-left: 2px;
+	font-size: 15px;
+}
+
+.zadzwon_kontener {
+	margin-top: 25px;
+}
+
+.zadzwon_fixed_text {
+	font-weight: bold;
+	color: white;
+	text-align: center; 
+	font-size: 21px;
+}
+
+.zadzwon_telefon_text {
+	height:100%;
+    border-radius: 25px;
+	font-weight: bold;
+	color: white;
+	font-size: 22px;
+	text-align: center;
+	background-color: rgb(223, 20, 26);
+	padding-left: 6px;
+	padding-right: 6px;
+
+}
+
+.zadzwon_telefon_text:hover {
+	height:100%;
+	background-color: rgb(252, 221, 9);
+	border-radius: 25px;
+	font-weight: black;
+	color: black;
+	font-size: 22px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.przyciski_kontener {
+	text-align: center;
+	margin-top: 0px;
+}
+
+.przyciski_text {
+	color: white;
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+}
+	
+.przyciski_div {
+	color: black;
+	font-weight: bold;
+	border-radius: 25px;
+	background-color: rgb(252, 221, 9);
+	font-size: 30px;
+	padding: 0px;
+	text-decoration: none;
+	width:100%;
+	height:100%;
+	display:block;
+	}
+	
+.przyciski_div:hover {
+	font-weight: bold;
+	border-radius: 25px;
+	color: white;
+	background-color: rgb(223, 20, 26);
+	font-size: 30px;
+	text-decoration: none;
+	width:100%;
+	height:100%;
+	display:block;
+}
+
+.zainstaluj_div {
+	color: black;
+	font-weight: bold;
+	border-radius: 25px;
+	background-color: rgb(252, 221, 9);
+	font-size: 30px;
+	padding: 0px;
+	text-decoration: none;
+	width:100%;
+	height:90%;
+	display:block;
+	}
+	
+.zainstaluj_div:hover {
+	font-weight: bold;
+	border-radius: 25px;
+	color: white;
+	background-color: rgb(30,144,255);
+	font-size: 30px;
+	text-decoration: none;
+	width:100%;
+	height:90%;
+	display:block;
+}
+
+.text_kontener_cennik {
+	color: white;
+	top: 10px;
+	right: 6px;
+	border-radius: 25px;
+}
+
+.text_kontener_praca {
+	color: white;
+	top: 10px;
+	right: 6px;
+	border-radius: 25px;
+}
+	
+.text_kontener_kontakt {
+	font-size: 20px;
+	color: white;
+	top: 20px;
+	right: 6px;
+	border-radius: 25px;
+}
+
+.pic_kontakt {
+	height: 53px;
+	width: 53px;
+	border-radius: 4px;
+}
+
+.text_kontener_aplikacja {
+    color: white;
+    top: 10px;
+    right: 6px;
+    border-radius: 25px;
+}	
+	
+
+	
+ </style>
+ 
+ <!-------------------------------------- BODY -------------------------------------->
+ <body>
+ 
+	 <div class="container postition-fixed">
+
+	 	<div>
+	 		<div class="w-100"></div><p>
+	 	</div>
+
+	 	<!-- HEADER -->
+
+	 	<div class="container position-relative ">
+			<div class="row justify-content-center" style="width: 100%">
+
+				<div class="col-5 col-md-7 ">
+					<marquee class="flaga_text" scrollamount="4" behavior="alternate">TAXI - <span style="background-color: rgb(252, 221, 9); color: black">&nbsp Non Stop &nbsp</span>+<span style="background-color: rgb(223, 20, 26)">&nbsp Fordon &nbsp</span> - 24/7 - City of BYDGOSZCZ and surrounded areas</marquee>
+				</div>
+				<div class="col-auto">
+					<a href="index.html"><img class="rounded float-left flaga" src="https://taxifordon.github.io/Pic/pl_flag.gif"><font class="flaga_text">PL</font></a>
+				</div>
+				<div class="col-auto">
+					<a href="index_en.html"><img class="rounded float-left flaga" src="Pic\UK_flag.gif"><font class="flaga_text">EN</font></a>
+				</div>
+
+			</div>
+	 	</div>
+
+	 	<!-- KARUZELA -->
+
+	 	<div id="karuzela_div" class="container-flex position-relative carousel">
+	 		<div class="row carousel">
+
+	 			<div class="col-12 col-md-9 carousel slide container" data-ride="carousel">
+	 				<div class="carousel-inner">
+	 					<div class="carousel-item active" data-interval="3000">
+	 						<img src="Pic\Baner1_eng.jpg" class="d-block w-100 rounded" alt="...">
+	 					</div>
+	 					<div class="carousel-item" data-interval="3000">
+	 						<img src="Pic\Baner2.jpg" class="d-block w-100 rounded" alt="...">
+	 					</div>
+	 					<div class="carousel-item" data-interval="3000">
+	 						<img src="Pic\Baner3.png" class="d-block w-100 rounded" alt="...">
+	 					</div>
+	 				</div>
+	 				<!-- Previous button -->
+	 				<a class="carousel-control-prev" href="#carouselBanner" role="button" data-slide="prev">
+	 					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	 					<span class="sr-only">Previous</span>
+	 				</a>
+	 				<!-- Next button -->
+	 				<a class="carousel-control-next" href="#carouselBanner" role="button" data-slide="next">
+	 					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+	 					<span class="sr-only">Next</span>
+	 				</a>
+	 			</div>
+
+	 		</div>
+	 	</div>
+
+	 	<!-- ZADZWON -->
+
+		<div class="container position-relative zadzwon_kontener">
+
+			<div class="row justify-content-center align-items-center" style="width: 100%">
+				<hr class="col-11 col-md-8 ">
+			</div>
+
+			<div class="row mb-2 justify-content-center" style="width: 100%">
+				<div class="col-12 col-sm-7 col-md-5 col-lg-3 zadzwon_fixed_text">
+					Press to call: &nbsp
+				</div>
+				<div class="col-12 col-sm-5 col-md-5 col-lg-auto mb-1 zadzwon_telefon_text ">
+					<a href="tel:+485219624" class="zadzwon_telefon_text" style="text-decoration: none;">52-196-24</a>
+				</div>
+				<div class="col-12 col-sm-7 col-md-5 col-lg-auto mb-1 zadzwon_fixed_text">
+					or
+				</div>
+				<div class="col-12 col-sm-5 col-md-5 col-lg-auto mb-1 zadzwon_telefon_text">
+					<a href="tel:+485219626" class="zadzwon_telefon_text" style="text-decoration: none;">52-196-26</a>
+				</div>
+				<div class="col-12 col-sm-7 col-md-5 col-lg-auto mb-1 zadzwon_fixed_text">
+					or
+				</div>
+				<div class="col-12 col-sm-5 col-md-5 col-lg-auto mb-1 zadzwon_telefon_text">
+					<a href="tel:+48525811050" class="zadzwon_telefon_text" style="text-decoration: none; ">52-581-10-50</a>
+				</div>
+			</div>
+
+			<div class="row justify-content-center" style="width: 100%">
+				<hr class="col-10 col-md-8 " style="margin-top: 0">
+			</div>
+		</div>
+		 
+		 </div> <!-- div bez pokrycia, ulepszajacy wyglad 4 zoltych przyciskow rozszerzajac je-->
+
+
+			<!-- Przyciski -->
+
+			<div class="container position-relative przyciski_kontener">
+				<div class="row justify-content-center " style="width: 100%">
+					<div class="col-5 col-md-4 col-lg-2 przyciski_div m-2">
+						<button class="przyciski_div" type="button" onclick="show('cennik_div')">Tariffs</button>
+					</div>
+					<div class="col-5 col-md-4 col-lg-2 przyciski_div m-2">
+						<button class="przyciski_div" type="button" onclick="show('praca_div')">About Us</a>
+					</div>
+					<div class="col-5 col-md-4 col-lg-2 przyciski_div m-2">
+						<button class="przyciski_div" type="button" onclick="show('kontakt_div')">Contact</a>
+					</div>
+					<div class="col-5 col-md-4 col-lg-2 przyciski_div m-2">
+						<button class="przyciski_div" type="button" onclick="show('aplikacja_div')">Application</a>
+</div>
+				</div>
+			</div>
+
+			<div>
+				<div class="w-100"></div><p>
+			</div>
+
+
+			<!-- Cennik -->
+
+
+			<div id="cennik_div" class="container-flex position-relative" style="display: none;">
+				<div class="container-flex position-relative row justify-content-center " style="width: 100%">
+					<div class="row col-10 col-sm-10 col-md-7 col-lg-12 text_kontener_kontakt justify-content-center" style="margin-left: 20px; margin-bottom: -13px; ">
+						<div class="justify-content-sm-start" style="margin-left: 170px;">
+							<div class="row mb-2">
+								<div class="d-none d-sm-block" style="float: left;">
+									<img src="Pic\start.jpg" class="pic_kontakt ">
+								</div>
+								<div class="d-none d-sm-block">
+									&nbsp &nbsp
+								</div>
+								<div class="align-self-center">
+									6,80 zł
+									<font style="color:yellow">- starting fee</font>
+								</div>
+							</div>
+							<div class="row mb-2">
+								<div class="d-none d-sm-block" style="float: left;">
+									<img src="Pic\dystans.png" class="pic_kontakt">
+								</div>
+								<div class="d-none d-sm-block">
+									&nbsp &nbsp
+								</div>
+								<div class="align-self-center">
+									3,00 zł
+									<font style="color:yellow">- each 1 km (1st tariff - day)</font>
+								</div>
+							</div>
+							<div class="row mb-2">
+								<div class="d-none d-sm-block" style="float: left;">
+									<img src="Pic\dystans2.png" class="pic_kontakt">
+								</div>
+								<div class="d-none d-sm-block">
+									&nbsp &nbsp
+								</div>
+								<div class="align-self-center">
+									4,50 zł
+									<font style="color:yellow">- each 1 km (2nd tariff - night)</font>
+								</div>
+							</div>
+							<div class="row mb-2">
+								<div class="d-none d-sm-block" style="float: left;">
+									<img src="Pic\1hr.png" class="pic_kontakt">
+								</div>
+								<div class="d-none d-sm-block">
+									&nbsp &nbsp
+								</div>
+								<div class="align-self-center">
+									35,00 zł
+									<font style="color:yellow">- each waiting hour</font>
+								</div>
+							</div>
+							<div class="row mb-2">
+								<div class="d-none d-sm-block" style="float: left;">
+									<img src="Pic\zwierze.png" class="pic_kontakt">
+								</div>
+								<div class="d-none d-sm-block">
+									&nbsp &nbsp
+								</div>
+								<div class="align-self-center">
+									5,00 zł
+									<font style="color:yellow">- animal transportation additional fee</font>
+								</div>
+							</div>
+							<div class="row mb-2">
+								<div class="d-none d-sm-block" style="float: left;">
+									<img src="Pic\van.jpg" class="pic_kontakt">
+								</div>
+								<div class="d-none d-sm-block">
+									&nbsp &nbsp
+								</div>
+								<div class="align-self-center">
+									15,00 zł
+									<font style="color:yellow">- call for a Van/Estate car</font>
+								</div>
+							</div>
+							<div class="row mb-2">
+								<div class="d-none d-sm-block" style="float: left;">
+									<img src="Pic\shopping.jpg" class="pic_kontakt">
+								</div>
+								<div class="d-none d-sm-block">
+									&nbsp &nbsp
+								</div>
+								<div class="align-self-center">
+									30,00 zł (cash)/35,00 zł (card)
+									<font style="color:yellow"><p>- small shopping/car start-up/shipment</font>
+								</div>
+							</div>
+							<div class="row mb-2" style="margin-top:-16px;">
+								<div class="d-none d-sm-block" style="float: left;">
+									<img src="Pic\20pr.png" class="pic_kontakt">
+								</div>
+								<div class="d-none d-sm-block">
+									&nbsp &nbsp
+								</div>
+								<div class="align-self-center">
+									20% 
+									<font style="color:yellow">- discount on travel TO and FROM Fordon</font>
+								</div>
+							</div>
+						</div>
+						<div class="text_kontener_kontakt d-none d-lg-block col-lg-5" style="margin-left: 10px;">
+							&nbsp <img src="Pic\rabat2en.png" style="border-radius: 4px;">
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<!-- O Nas -->
+
+
+			<div id="praca_div" class="container-flex position-relative" style="display: none;">
+				<div class="container-flex position-relative row justify-content-center " style="width: 100%">
+					<div class="row col-10 col-sm-10 col-md-7 col-lg-12 text_kontener_kontakt justify-content-center" style="margin-left: 20px; margin-bottom: -13px; ">
+						<div class="">
+							<div class="row mb-2">
+								<div>
+									<div class="w-100"> </div>
+								</div>
+							</div>
+							<div class="row mb-2">
+								<div class="align-self-center" style="text-decoration: none; color: yellow;">
+									We are the elite taxi company <p>in the Polish city of Bydgoszcz.
+								</div>
+							</div>
+							<div class="row mb-2">
+								<div class="align-self-center" style="text-decoration: none; color: white;">
+									We provide services for individuals<p> and companies.
+								</div>
+							</div>
+							<div class="row mb-2">
+								<div class="align-self-center" style="text-decoration: none; color: yellow;">
+									We transport comfortably and safely<p> between airports and cities.
+								</div>
+							</div>
+							<div class="row mb-2">
+								<div class="align-self-center" style="text-decoration: none; color: white;">
+									We accept pre-booking schedule,<p> collections and card payments.
+								</div>
+							</div>
+							<div class="row mb-2">
+								<div class="align-self-center" style="text-decoration: none; color: yellow;">
+									We issuing invoices on request <p>to hand or send electronically.
+								</div>
+							</div>
+						</div>
+
+						<div class="text_kontener_kontakt d-none d-lg-block col-lg-5" style="margin-right: -20px;">
+							&nbsp <img src="Pic\gapa.jpg" style="border-radius: 4px;">
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<!-- Kontakt-->
+
+
+			<div id="kontakt_div" class="container-flex position-relative" style="display: none;">
+				<div class="container-flex position-relative row justify-content-center " style="width: 100%">
+					<div class="row col-10 col-sm-10 col-md-7 col-lg-12 text_kontener_kontakt justify-content-center" style="margin-left: 20px; margin-bottom: -13px; ">
+						<div class="">
+							<div class="row mb-2">
+								<div class="d-none d-sm-block" style="float: left;">
+									<img src="Pic\phone.png" class="pic_kontakt ">
+								</div>
+								<div class="d-none d-sm-block">
+									&nbsp &nbsp
+								</div>
+								<div class="align-self-center">
+									Call orders 1:
+									&nbsp &nbsp
+									<a href="tel:+485219624" style="text-decoration: none; color: yellow;">52 196-24</a>
+								</div>
+							</div>
+							<div class="row mb-2">
+								<div class="d-none d-sm-block" style="float: left;">
+									<img src="Pic\phone.png" class="pic_kontakt">
+								</div>
+								<div class="d-none d-sm-block">
+									&nbsp &nbsp
+								</div>
+								<div class=" align-self-center">
+									Call orders 2:
+									&nbsp &nbsp
+									<a href="tel:+485219626" style="text-decoration: none; color: yellow;">52 196-26</a>
+								</div>
+							</div>
+							<div class="row mb-2">
+								<div class="d-none d-sm-block" style="float: left;">
+									<img src="Pic\phone.png" class="pic_kontakt">
+								</div>
+								<div class="d-none d-sm-block">
+									&nbsp &nbsp
+								</div>
+								<div class=" align-self-center">
+									Call orders 3:
+									&nbsp &nbsp
+									<a href="tel:+48525811050" style="text-decoration: none; color: yellow;">52 581 10 50</a>
+								</div>
+							</div>
+							<div class="row mb-2">
+								<div class="d-none d-sm-block" style="float: left;">
+									<img src="Pic\praca_icon.png" class="pic_kontakt">
+								</div>
+								<div class="d-none d-sm-block">
+									&nbsp &nbsp
+								</div>
+								<div class=" align-self-center">
+									Job:
+									&nbsp &nbsp
+									<a href="tel:+48664556483" style="text-decoration: none; color: yellow; ">+48 664-556-483</a>
+								</div>
+							</div>
+							<div class="row mb-2">
+								<div class="d-none d-sm-block" style="float: left;">
+									<img src="Pic\email.png" class="pic_kontakt">
+								</div>
+								<div class="d-none d-sm-block">
+									&nbsp &nbsp
+								</div>
+								<div class=" align-self-center">
+									E-mail:
+									&nbsp &nbsp
+									<a href="mailto:taxifordon@wp.pl" style="text-decoration: none; color: yellow;">taxifordon@wp.pl</a>
+								</div>
+							</div>
+							<div class="row mb-2">
+								<div class="d-none d-sm-block" style="float: left;">
+									<img src="Pic\fb.png" class="pic_kontakt">
+								</div>
+								<div class="d-none d-sm-block">
+									&nbsp &nbsp
+								</div>
+								<div class=" align-self-center">
+									FB:
+									&nbsp &nbsp
+									<a href="https://www.facebook.com/Taxi-Non-Stop-i-Fordon-Bydgoszcz-104634388294842" style="text-decoration: none; color: yellow;">Taxi Non Stop i Fordon</a>
+								</div>
+							</div>
+							<div class="row mb-2">
+								<div class="d-none d-sm-block" style="float: left;">
+									<img src="Pic\ig.png" class="pic_kontakt">
+								</div>
+								<div class="d-none d-sm-block">
+									&nbsp &nbsp
+								</div>
+								<div class=" align-self-center">
+									IG:
+									&nbsp &nbsp
+									<a href="https://www.instagram.com/taxi.bydgoszcz/" style="text-decoration: none; color: yellow;">@taxi.bydgoszcz</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="text_kontener_kontakt d-none d-lg-block col-lg-5" style="margin-left: -30px;">
+							<img src="Pic\biuro.png" style="border-radius: 4px;">
+						</div>
+					</div>
+				</div>
+			</div>
+				<!-- Aplikacja-->
+
+
+				<div id="aplikacja_div" class="container-flex position-relative" style="display: none;">
+					<div class="row justify-content-center align-items-center" style="width: 100%">
+						<div class="col-10 col-sm-5 col-md-3 przyciski_div m-2 ">
+							<button class="zainstaluj_div" type="button" onclick="location.href='https://play.google.com/store/apps/details?id=pl.altsoft.mtaxi.byfordon&amp;rdid=pl.altsoft.mtaxi.byfordon&amp;feature=md&amp;offerId';">Install</button>
+						</div>
+						<div class="col-7 col-sm-5 col-md-3 col-lg-2 m-2">
+							<img src="Pic\app.gif" style="border-radius: 4px;">
+						</div>
+						<div class="d-none d-xl-block col-xl-1 m-2">
+							<img src="Pic\app2.jpg" style="border-radius: 4px;">
+						</div>
+
+					</div>
+				</div>
+
+
+			
+
+			<!-------------------------------------- SCRIPT -------------------------------------->
+
+			<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+			<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+
+
+			<script>
+				function show(param_div_id) {
+					document.getElementById('karuzela_div').innerHTML = document.getElementById(param_div_id).innerHTML;
+				}
+			</script>
+
+
+
+</body>
+</html>
